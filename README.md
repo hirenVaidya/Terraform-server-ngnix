@@ -13,7 +13,7 @@
                  |                                        |
         +--------------------+                 +--------------------+
         |  Public Subnet     |                 |  Private Subnet    |
-        |  CIDR: 10.0.1.0/24 |                 |  CIDR: 10.0.2.0/24 |
+        |  CIDR: 10.0.0.0/24 |                 |  CIDR: 10.0.0.0/24 |
         +--------------------+                 +--------------------+
                  |
          +---------------------+
@@ -29,7 +29,7 @@
          |    EC2 Instance     |
          | Ubuntu + NGINX      |
          | Public IP:          |
-         | http://13.127.179.75/ |
+         | http://13.127.179.5/ |
          +---------------------+
                  |
          +---------------------+
@@ -93,7 +93,7 @@ Once provisioning is complete, Terraform will output the public URL of your EC2 
 
 Outputs:
 
-url = "http://13.127.179.75/" on  vs code terminal  
+url = "http://13.127.179.5/" on  vs code terminal  
 Open the URL in your browser to see the default NGINX welcome page.
 To Destroy Resources
 
