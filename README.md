@@ -38,6 +38,8 @@
          | Outbound: All       |
          +---------------------+
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d3d725cb-4499-4d53-a81c-b1f123105ab9" />
+
 This Terraform project provisions a complete AWS infrastructure including a VPC with public and private subnets, an internet gateway, route table, and an EC2 instance with NGINX automatically installed using user data.
 
 ## 🔧 Features
@@ -106,3 +108,4 @@ rerequisites
     if not understand aws configure) how to use here is https://docs.aws.amazon.com/cli/v1/userguide/cli-configure-envvars.html
 
     Terraform installed (v1.0+) on vs code 
+
